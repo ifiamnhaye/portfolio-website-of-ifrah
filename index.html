@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ifrah Kausar | Linux • IT • Systems</title>
+<meta name="description" content="Portfolio of Ifrah Kausar, an aspiring Linux Systems Specialist.">
+<style>
+:root{
+  --bg:#07111f; --card:#0d1b2a; --card2:#102238; --text:#edf6ff;
+  --muted:#a9bdd0; --accent:#4fd1c5; --accent2:#60a5fa; --line:#1e3850;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(135deg,#06101c,#0a1727 55%,#07111f);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(7,17,31,.82);backdrop-filter:blur(14px);border-bottom:1px solid rgba(79,209,197,.12)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:.5px}.logo span{color:var(--accent)}
+.navlinks{display:flex;gap:25px;color:var(--muted);font-size:.94rem}.navlinks a:hover{color:var(--accent)}
+.hero{min-height:100vh;display:flex;align-items:center;padding:110px 0 70px}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:55px;align-items:center}
+.kicker{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.82rem}
+h1{font-size:clamp(3rem,7vw,5.7rem);line-height:1.02;margin:14px 0 20px}
+h1 span{color:var(--accent)}
+.hero p{color:var(--muted);font-size:1.08rem;max-width:680px}
+.buttons{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.btn{padding:12px 20px;border-radius:10px;border:1px solid var(--line);font-weight:700;transition:.2s}
+.btn.primary{background:var(--accent);color:#06111d;border-color:var(--accent)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.terminal{background:#050b13;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 25px 70px rgba(0,0,0,.3)}
+.dots{display:flex;gap:7px;margin-bottom:20px}.dots i{width:10px;height:10px;border-radius:50%;background:#29445d}
+pre{font-family:Consolas,monospace;color:#c7e7ff;font-size:.9rem;white-space:pre-wrap}.green{color:var(--accent)}.blue{color:var(--accent2)}
+section{padding:95px 0}.section-title{font-size:2.3rem;margin-bottom:12px}.section-sub{color:var(--muted);margin-bottom:38px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:linear-gradient(145deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:16px;padding:25px}
+.card h3{margin-bottom:8px}.card p{color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:12px}.skill{padding:11px 15px;border:1px solid var(--line);border-radius:999px;background:#0c1a29;color:#cde5f6}
+.timeline{border-left:2px solid var(--line);padding-left:28px;display:grid;gap:30px}
+.item{position:relative}.item:before{content:"";position:absolute;left:-36px;top:7px;width:13px;height:13px;border-radius:50%;background:var(--accent)}
+.meta{color:var(--accent);font-size:.9rem;font-weight:700}.item p,.item li{color:var(--muted)}
+.item ul{margin:8px 0 0 18px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.contact-card{padding:25px;background:var(--card);border:1px solid var(--line);border-radius:16px}
+.contact-card strong{display:block;color:var(--accent);margin-bottom:5px}
+footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted);text-align:center}
+@media(max-width:800px){.hero-grid,.contact{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.navlinks{display:none}h1{font-size:3.5rem}}
+</style>
+</head>
+<body>
+<nav><div class="container nav">
+  <a class="logo" href="#home">IFRAH<span>.</span></a>
+  <div class="navlinks"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header class="hero" id="home"><div class="container hero-grid">
+  <div>
+    <div class="kicker">Linux • IT • Systems</div>
+    <h1>Ifrah <span>Kausar</span></h1>
+    <p>Aspiring Linux Systems Specialist passionate about Linux operating systems, system administration, networking, and open-source technologies.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#contact">Get in touch</a>
+      <a class="btn" href="https://github.com/ifiamnhaye" target="_blank">GitHub</a>
+      <a class="btn" href="https://linkedin.com/in/ifrah-naz-kausar-b70832261" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+  <div class="terminal"><div class="dots"><i></i><i></i><i></i></div>
+<pre><span class="green">$ whoami</span>
+ifrah-kausar
+
+<span class="green">$ focus</span>
+Linux Systems
+System Administration
+Networking
+Open Source
+
+<span class="green">$ status</span>
+<span class="blue">Building skills • Seeking growth</span></pre></div>
+</div></header>
+
+<section id="about"><div class="container">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-sub">A professional profile focused on building a career in Linux and IT.</p>
+  <div class="cards">
+    <div class="card"><h3>Linux & Systems</h3><p>Focused on Linux operating systems, command-line fundamentals and system administration.</p></div>
+    <div class="card"><h3>Networking</h3><p>Developing knowledge in networking and IT support as part of a broader systems skill set.</p></div>
+    <div class="card"><h3>Professional Skills</h3><p>Bringing problem solving, teamwork, communication, adaptability and strong time management.</p></div>
+  </div>
+</div></section>
+
+<section id="experience"><div class="container">
+  <h2 class="section-title">Professional Experience</h2>
+  <p class="section-sub">Experience in financial operations with transferable organizational and analytical skills.</p>
+  <div class="timeline">
+    <div class="item"><div class="meta">February 2023 – July 2024 · Kharian</div><h3>Finance Head — Al Rehman Hospital</h3>
+      <ul><li>Oversaw financial operations and supported regulatory and organizational compliance.</li><li>Developed and managed financial reporting processes for management decision-making.</li><li>Monitored budgets and resources to improve allocation and operational efficiency.</li><li>Collaborated with cross-functional teams to improve resource utilization and financial performance.</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="container">
+  <h2 class="section-title">Technical Focus</h2><p class="section-sub">Core areas of interest and professional development.</p>
+  <div class="skills">
+    <span class="skill">Linux Operating Systems</span><span class="skill">Command-Line Fundamentals</span>
+    <span class="skill">System Administration</span><span class="skill">Networking</span>
+    <span class="skill">Open-Source Technologies</span><span class="skill">IT Support</span>
+  </div>
+</div></section>
+
+<section id="education"><div class="container">
+  <h2 class="section-title">Education & Training</h2><p class="section-sub">Academic background and additional training.</p>
+  <div class="cards">
+    <div class="card"><h3>BS Information Technology</h3><p><b>Virtual University of Pakistan — Lahore</b><br>2004 – 2008</p><p style="margin-top:10px">Software Engineering, Data Structures, Network Security.</p></div>
+    <div class="card"><h3>Amazon Virtual Assistant Training</h3><p><b>Enablers — Kharian</b><br>April 2023 – June 2023</p><p style="margin-top:10px">Seller account management, product research, inventory, customer service, Helium 10, Jungle Scout and Seller Central.</p></div>
+    <div class="card"><h3>Diploma in Tarjuma-tul-Quran</h3><p><b>Jamia Lil Banat, Channan Ghakhar — Dinga</b><br>1995 – 1997</p><p style="margin-top:10px">Quranic translation, Arabic language, Islamic teachings and Fiqh.</p></div>
+  </div>
+</div></section>
+
+<section><div class="container">
+  <h2 class="section-title">Strengths</h2><p class="section-sub">Professional qualities supporting growth in IT and systems work.</p>
+  <div class="skills"><span class="skill">Problem Solving</span><span class="skill">Teamwork</span><span class="skill">Time Management</span><span class="skill">Adaptability</span><span class="skill">Communication</span></div>
+</div></section>
+
+<section id="contact"><div class="container">
+  <h2 class="section-title">Let's Connect</h2><p class="section-sub">Interested in Linux, IT, systems and open-source opportunities.</p>
+  <div class="contact">
+    <div class="contact-card"><strong>Phone</strong><a href="tel:+923007177055">0300-7177055</a></div>
+    <div class="contact-card"><strong>Email</strong><a href="mailto:ifi.amn.haye@gmail.com">ifi.amn.haye@gmail.com</a></div>
+    <div class="contact-card"><strong>GitHub</strong><a href="https://github.com/ifiamnhaye" target="_blank">github.com/ifiamnhaye</a></div>
+    <div class="contact-card"><strong>LinkedIn</strong><a href="https://linkedin.com/in/ifrah-naz-kausar-b70832261" target="_blank">ifrah-naz-kausar</a></div>
+  </div>
+</div></section>
+
+<footer>© 2026 Ifrah Kausar · Linux • IT • Systems</footer>
+</body>
+</html>
