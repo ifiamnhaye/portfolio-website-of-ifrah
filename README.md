@@ -12,18 +12,18 @@ This single-page portfolio highlights expertise across Linux systems, networking
 
 ## 🛠️ Built With
 
-* **HTML5** — Semantic page structure[cite: 1]
-* **CSS3** — Custom properties (CSS variables), grid/flexbox layouts, responsive design, and backdrop blur effects[cite: 1]
-* **JavaScript** — Pure vanilla smooth scrolling navigation[cite: 1]
+* **HTML5** — Semantic page structure
+* **CSS3** — Custom properties (CSS variables), grid/flexbox layouts, responsive design, and backdrop blur effects
+* **JavaScript** — Pure vanilla smooth scrolling navigation
 
 ---
 
 ## 📂 Key Sections
 
-1. **Hero & Terminal** — Interactive introduction featuring a custom interactive-style terminal window (`whoami`, `focus`, `status`)[cite: 1].
-2. **About Me** — Core focus on Linux, system administration, networking, and soft skills[cite: 1].
-3. **Professional Experience** — Career history highlighting leadership, analytical, and operational expertise[cite: 1].
-4. **Technical Focus & Strengths** — Highlighted technical domains and core competencies[cite: 1].
+1. **Hero & Terminal** — Interactive introduction featuring a custom interactive-style terminal window (`whoami`, `focus`, `status`).
+2. **About Me** — Core focus on Linux, system administration, networking, and soft skills.
+3. **Professional Experience** — Career history highlighting leadership, analytical, and operational expertise.
+4. **Technical Focus & Strengths** — Highlighted technical domains and core competencies.
 5. **Education & Training** — Academic degrees, specialized IT training, and certifications.
 6. **Contact & Socials** — Direct links to email, phone, GitHub, and LinkedIn.
 
@@ -32,5 +32,4 @@ This single-page portfolio highlights expertise across Linux systems, networking
 ## 🚀 How to Run Locally
 
 1. **Clone the repository:**
-   ```bash
    git clone [https://github.com/ifiamnhaye/portfolio-website-of-ifrah.git](https://github.com/ifiamnhaye/portfolio-website-of-ifrah.git)
